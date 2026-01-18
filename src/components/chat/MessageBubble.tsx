@@ -131,8 +131,11 @@ const MarkdownRenderer: React.FC<{ content: string; onCopy?: () => void }> = ({ 
         <ReactMarkdown
             components={{
                 p: ({ children }) => <p className="mb-4 last:mb-0">{children}</p>,
-                img: ({ src, alt }) => (
-                    <GeneratedImage src={src || ''} alt={alt || 'Generated image'} />
+                img: (props: any) => (
+                    <GeneratedImage
+                        src={String(props.src || '')}
+                        alt={String(props.alt || 'Generated image')}
+                    />
                 ),
                 strong: ({ children }) => (
                     <strong className="font-semibold text-[#171717]">{children}</strong>
