@@ -59,7 +59,7 @@ export const ChatInput: React.FC<ChatInputProps> = ({
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                             onKeyDown={handleKeyDown}
-                            placeholder="Message Ashraf AI..."
+                            placeholder="Message Extrain Ai..."
                             className="flex-1 bg-transparent border-none resize-none focus:ring-0 text-[15px] leading-[1.6] py-2 text-slate-800 placeholder-slate-400 max-h-[200px]"
                         />
 
@@ -92,7 +92,7 @@ export const ChatInput: React.FC<ChatInputProps> = ({
                 </form>
 
                 <p className="text-center text-[11px] text-slate-400 mt-3 font-medium">
-                    Ashraf AI can make mistakes. Verify important information.
+                    Extrain Ai can make mistakes. Verify important information.
                 </p>
             </div>
         </div>

@@ -56,7 +56,7 @@ const GeneratedImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) =>
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `ashrafai-generated-${Date.now()}.png`;
+            a.download = `extrainai-generated-${Date.now()}.png`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
@@ -226,7 +226,7 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({
                         ? "border border-[#e5e5e5] bg-white text-[#171717]"
                         : "bg-gradient-to-br from-violet-500 via-purple-500 to-fuchsia-500 shadow-lg shadow-purple-500/30"
                 )}>
-                    {isUser ? 'AS' : <Sparkles className="w-4 h-4 text-white" />}
+                    {isUser ? 'EA' : <Sparkles className="w-4 h-4 text-white" />}
                 </div>
 
                 {/* Content Area */}
@@ -237,7 +237,7 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({
                             ? "text-[#171717]"
                             : "bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 bg-clip-text text-transparent"
                     )}>
-                        {isUser ? 'You' : 'Ashraf AI'}
+                        {isUser ? 'You' : 'Extrain Ai'}
                     </div>
 
                     <div className="prose text-[#171717] text-[16px] leading-[1.6] markdown-content">

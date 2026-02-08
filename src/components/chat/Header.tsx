@@ -26,7 +26,7 @@ export const Header: React.FC<HeaderProps> = ({
                     </div>
                     {/* Colorful Text */}
                     <span className="font-semibold text-[18px] bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 bg-clip-text text-transparent">
-                        Ashraf AI
+                        Extrain Ai
                     </span>
                     <ChevronDown className="w-4 h-4 text-purple-400" />
                 </button>
@@ -38,7 +38,7 @@ export const Header: React.FC<HeaderProps> = ({
                     <Sparkles className="w-2.5 h-2.5 text-white" />
                 </div>
                 <span className="text-[13px] font-medium bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-clip-text text-transparent group-hover:from-violet-700 group-hover:to-fuchsia-700">
-                    Ashraf AI Pro
+                    Extrain Ai Pro
                 </span>
             </div>
 
@@ -53,7 +53,7 @@ export const Header: React.FC<HeaderProps> = ({
                     <div className="absolute inset-0 w-8 h-8 rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 blur-sm opacity-50 group-hover:opacity-75 transition-opacity" />
                     <div className="relative w-8 h-8 rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 p-[2px] cursor-pointer hover:scale-105 transition-transform">
                         <div className="w-full h-full rounded-full bg-white flex items-center justify-center text-[12px] font-bold text-purple-600">
-                            AS
+                            EA
                         </div>
                     </div>
                 </div>

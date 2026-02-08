@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AshrafAI - Next Generation AI Assistant",
-  description: "Experience the future of AI conversation with AshrafAI. Powered by advanced language models for intelligent, contextual, and creative responses.",
-  keywords: ["AI", "Chatbot", "AshrafAI", "Artificial Intelligence", "Chat Assistant"],
-  authors: [{ name: "AshrafAI Team" }],
+  title: "Extrain Ai - Next Generation AI Assistant",
+  description: "Experience the future of AI conversation with Extrain Ai. Powered by advanced language models for intelligent, contextual, and creative responses.",
+  keywords: ["AI", "Chatbot", "Extrain Ai", "Artificial Intelligence", "Chat Assistant"],
+  authors: [{ name: "Extrain Ai Team" }],
   openGraph: {
-    title: "AshrafAI - Next Generation AI Assistant",
+    title: "Extrain Ai - Next Generation AI Assistant",
     description: "Experience the future of AI conversation",
     type: "website",
   },

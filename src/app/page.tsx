@@ -17,10 +17,10 @@ export default function Home() {
 
   // Handle User Privacy - Get or Create Anonymous ID
   useEffect(() => {
-    let anonymousId = localStorage.getItem('ashrafai_user_id');
+    let anonymousId = localStorage.getItem('extrainai_user_id');
     if (!anonymousId) {
       anonymousId = `user_${uuidv4()}`;
-      localStorage.setItem('ashrafai_user_id', anonymousId);
+      localStorage.setItem('extrainai_user_id', anonymousId);
     }
     setUserId(anonymousId);
   }, []);

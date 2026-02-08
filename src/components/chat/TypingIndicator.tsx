@@ -16,7 +16,7 @@ export const TypingIndicator: React.FC = () => {
                 {/* Content Area */}
                 <div className="flex-1">
                     <div className="font-semibold text-[14px] mb-2 bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 bg-clip-text text-transparent">
-                        Ashraf AI is thinking...
+                        Extrain Ai is thinking...
                     </div>
 
                     {/* Bouncing Dots Processing Animation */}

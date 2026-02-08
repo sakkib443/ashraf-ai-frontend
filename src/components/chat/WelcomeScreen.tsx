@@ -51,11 +51,11 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onSuggestionClick 
                 </div>
             </div>
 
-            {/* Title with Colorful "Ashraf AI" */}
+            {/* Title with Colorful "Extrain Ai" */}
             <h1 className="text-[40px] md:text-[48px] font-bold text-[#171717] mb-[40px] tracking-tight leading-tight">
                 What can{' '}
                 <span className="bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 bg-clip-text text-transparent animate-gradient">
-                    Ashraf AI
+                    Extrain Ai
                 </span>{' '}
                 help with?
             </h1>
